@@ -51,12 +51,13 @@ public class Employee {
 	public void setPin(String pin) {
 		this.pin=pin;
 	}
+	public String getLocation() {
+		return location;
+	}
 	public void setLocation(String location) {
 		this.location=location;
 	}
-	public String hetLocation() {
-		return location;
-	}
+	
 	
 
 }
